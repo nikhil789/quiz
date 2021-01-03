@@ -1,0 +1,157 @@
+#timer_and_submit{
+			
+	position:fixed;
+	/*width:300px;
+	height:50px;*/
+	top:0px;
+	right:0px;
+	background-color:#33adff; 
+	font-size:25px;
+	color:white;
+	padding:10px 15px;
+	display: none;
+}
+#title{
+	margin-top: 50px;
+}
+#timer{
+
+	float:left;
+	margin-right:10px;
+	border-right:1px solid white;
+	padding-right:9px;
+}
+
+#submit{
+
+	float:left;
+	border:none;
+	font-size:25px;
+	background:none;
+	color:white;
+}
+
+#result{
+
+	position:fixed;
+	top:0px;
+	left:0px;
+	font-size:25px;
+	display:none;
+	text-align:center;
+	font-family:roboto;
+}
+
+#main_container{
+
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	letter-spacing:0.5px;
+	
+}
+
+.q_container{
+
+	width:600px;
+	border-radius:5px;
+	margin-bottom:30px;
+	/*margin-left:200px;*/
+	padding:20px 20px;
+	box-shadow:0px 0px 12px lightgray;
+	font-family:'Work Sans', sans-serif;
+}
+
+.number{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	font-weight:600;
+	font-size:20px;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	margin-left:270px;
+	margin-bottom:10px;
+	background-color:orange;
+	color:white;
+}
+
+.stmt{
+
+	font-size:25px;
+
+}
+
+.options_table{
+	width:500px;
+	margin:10px 0px;
+	border-spacing:0px 8px;
+}
+
+.tag{
+	width:25px;
+	background-color:black;
+	color:white;
+	padding:5px 10px;
+	font-size:20px;
+	font-weight:600;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	margin-bottom:12px;
+}
+
+.content{
+
+	font-size:20px;
+	border:1px solid black;
+	padding:5px 15px;
+	
+}
+
+.clear_response{
+
+	position: relative;
+	left:420px;
+	width:180px;
+	height:40px;
+	background-color:orange;
+	border:none;
+	color:white;
+	font-size:18px;
+	letter-spacing:1px;
+	border-radius:4px;
+	font-family:'Work Sans', sans-serif;
+}
+
+.clear_response:focus{
+	outline:none;
+}
+
+.clear_response:hover{
+	background-color:rgb(247, 183, 96);
+}
+#test_list{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	overflow: scroll;
+	box-shadow: inset 0 0 7px;
+	padding: 10px;
+	left: 400px;
+}
+#test_list::-webkit-scrollbar {
+  display: none;
+}
+#test_list_element{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+#test_list_button{
+	height: 30px;
+	margin-top: 9px;
+}
