@@ -4,7 +4,8 @@ var USER_INPUT = {};
 function main(){
 
 	var ele1 = document.getElementById('timer_and_submit');
-	ele1.style.display = "block";
+	ele1.style.display = "inline-block";
+	ele1.style.gridColumn = "5 / span 1"; 
 	var title = document.getElementById("title");
 	title.innerHTML = DATA["title"];
 	

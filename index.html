@@ -4,7 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		
 		<script src="dtq_view.js"></script>
-		<script src="msq_view.js"></script>>
+		<script src="msq_view.js"></script>
 		
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -15,30 +15,34 @@
 	</head>
 	
 	<body>
-	
-		<div id="timer_and_submit">
-		
-			<div id="timer">00:00:00</div>
-			
-			<button id="submit" onclick="submit()">SUBMIT</button>
-		
-		</div>
-		
-		<div id="result">
-		
-			<div id="not_attempted_count" style="float:left;padding:10px 5px;background-color:orange;color:white;width:60px;"></div>
-			
-			<div id="wrong_count" style="float:left;padding:10px 5px;background-color:firebrick;color:white;width:60px;"></div>
-
-			<div id="correct_count" style="float:left;padding:10px 5px;background-color:lightseagreen;color:white;width:60px;"></div>
+		<div id="main">
+			<div id="header">
+				<div id="result">
+				
+					<div id="not_attempted_count" style="float: left; padding:10px 5px;background-color:orange;color:white;width:60px; height: 35px; border-right:1px solid white;"></div>
 					
+					<div id="wrong_count" style="float: left; padding:10px 5px;background-color:firebrick;color:white;width:60px; height: 35px; border-right:1px solid white;"></div>
+
+					<div id="correct_count" style="float: left; padding:10px 5px;background-color:lightseagreen;color:white;width:60px; height: 35px; border-right:1px solid white;"></div>
+							
+				</div>
+
+				<h1 id="title"></h1>
+				
+				<div id="timer_and_submit">
+				
+					<div id="timer">00:00:00</div>
+					
+					<button id="submit" onclick="submit()">SUBMIT</button>
+				
+				</div>
+
+			</div>
+		
+			
+			<div id="main_container"></div>
+			<div id="test_list"></div>
 		</div>
-	
-		<h1 align="center" id="title"></h1>
-		
-		<div id="main_container"></div>
-		<div id="test_list"></div>
-		
 		<script src="quiz.js"></script>
 		
 		<script>

@@ -11,16 +11,17 @@ function prepare_dtq_view(q_number, q_data){
 	var stmt_label = get_stmt_label(q_data["stmt"]);
 	
 	var options_table = create_options_table(q_number, q_data["options"]);
-	
+	var div_for_button = document.createElement("div");
+	div_for_button.id = "button_div";
 	var clear_button = document.createElement("button");
 	clear_button.id = q_number + "_" + "clear";
 	clear_button.className = "clear_response";
 	clear_button.innerHTML = "Clear Response";
-	
+	div_for_button.append(clear_button);
 	q_container.append(number_label);
 	q_container.append(stmt_label);
 	q_container.append(options_table);
-	q_container.append(clear_button);
+	q_container.append(div_for_button);
 	
 	return q_container;
 }
