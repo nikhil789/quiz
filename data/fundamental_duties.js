@@ -18,6 +18,25 @@ var DATA = {
 		},
 		
 		{
+			"type" : "msq",
+			"head_stmt" : "Consider the following statements regarding Gandhiji :",
+			"stmts" : [
+			"He was against MacDonald Award of separate electorate to depressed classes.",
+			"He called depressed classes 'Harijan'.",
+			"He authored book named 'Mook Nayak'."
+			],
+			"foot_stmt" : "Select the correct statement(s):",
+			"options" : [
+			"1, 2 and 3",
+			"1 and 2",
+			"1 only",
+			"2 and 3"
+			],
+			"correct" : "1 and 2"
+
+		},
+
+		{
 		
 			"type" : "dtq",
 			"stmt" : "Duty to have compassion for living creatures is under",

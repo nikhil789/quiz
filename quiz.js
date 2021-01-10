@@ -25,11 +25,20 @@ function main(){
 			main_container.append(q_container_obj);
 		}
 		
-		else {
+		else if(q["type"] == "msq") {
 		
-			alert("unknown format!!");
+		
+			var q_container_obj = prepare_msq_view(i+1, q);
+			
+			var main_container = document.getElementById("main_container");
+			
+			main_container.append(q_container_obj);	
+
+			
 		
 		}
+		else
+			alert("unknown format!!");
 	
 	}
 	

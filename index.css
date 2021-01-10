@@ -84,6 +84,18 @@
 
 }
 
+.stmts_temp{
+
+font-size:20px;
+
+}
+
+.stmts_temp table td{
+
+padding:5px 5px;
+
+}
+
 .options_table{
 	width:500px;
 	margin:10px 0px;
