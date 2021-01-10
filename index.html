@@ -80,6 +80,8 @@
 				but.innerHTML = "Click Here";
 				but.addEventListener('click', function()
 				{
+					var header = document.getElementById("header");
+					header.style.display = "grid";
 					console.log("button clicked with adress ", i.adress);
 					var h = document.getElementsByTagName('HEAD');
 					var script1 = document.createElement('script');
