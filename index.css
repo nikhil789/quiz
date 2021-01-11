@@ -19,11 +19,7 @@ body{
 }
 
 #timer_and_submit{
-	background: linear-gradient(
-      to bottom,
-      rgb(0, 171, 255)0%,
-      rgb(0,147,255)100%
-  ); 
+  	background-color: rgba(0,0,0,0); 
 	font-size:25px;
 	color:white;
 	padding:10px 15px;
@@ -144,7 +140,7 @@ padding:5px 5px;
 	padding:5px 15px;
 	
 }
-#button_div{
+.button_div{
 	display: flex;
 	flex-direction: row-reverse;
 }

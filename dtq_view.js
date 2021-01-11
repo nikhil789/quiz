@@ -12,7 +12,7 @@ function prepare_dtq_view(q_number, q_data){
 	
 	var options_table = create_options_table(q_number, q_data["options"]);
 	var div_for_button = document.createElement("div");
-	div_for_button.id = "button_div";
+	div_for_button.className = "button_div";
 	var clear_button = document.createElement("button");
 	clear_button.id = q_number + "_" + "clear";
 	clear_button.className = "clear_response";

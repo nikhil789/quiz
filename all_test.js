@@ -67,6 +67,16 @@ var Test_data =
 
 				"title" : "May",
 				"adress": "./data/may.js"	
+			},
+			{
+
+				"title" : "Ankit Agarwal November 1",
+				"adress": "./data/ankit_ag_nov_mcq.js"	
+			},
+			{
+
+				"title" : "Ankit Agarwal November 2",
+				"adress": "./data/ankit_ag_nov_mcq_2.js"	
 			}
 		]
 }
