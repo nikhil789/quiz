@@ -28,6 +28,10 @@ var Test_data =
             {
                 "title" : "Ankit Janurary Quiz 1",
                 "adress": "./data/Ankit_Jan_1.js"
+            },
+            {
+                "title" : "Ankit Janurary Quiz 2",
+                "adress": "./data/ankit_january_quiz_2.js"
             }
 		]
 }
