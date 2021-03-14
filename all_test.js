@@ -32,6 +32,10 @@ var Test_data =
             {
                 "title" : "Ankit Janurary Quiz 2",
                 "adress": "./data/ankit_january_quiz_2.js"
+            },
+            {
+                "title" : "Polity Difficult Questions",
+                "adress": "./data/polity_difficult_questions.js"
             }
 		]
 }
