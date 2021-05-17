@@ -6,7 +6,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about India’s cereal export:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Rice and Wheat together account for about 95% share of the cereal export. ",
             "Nepal was one of the major export destinations for Wheat and Non-Basmati Rice in 2019-20. "
@@ -23,7 +23,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Henley Passport Index 2021: ",
-        "foot-stmt": "Which of the statements given above is/are not correct:",
+        "foot_stmt": "Which of the statements given above is/are not correct:",
         "stmts": [
             "It ranks the passports of several countries according to the number of destinations their holders can access without a prior visa.",
             "Singapore and South Korea were the best and worst performers respectively. "
@@ -40,7 +40,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The world’s oldest known cave art is discovered from the Leang Tedongnge cave.",
             "The Leang Tedongnge cave is located on the island of Sulawesi, Indonesia."
@@ -57,7 +57,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Water pollution by organic wastes is measured in terms of Biological Oxygen Demand (BOD).",
             "Ammonia reduces the amount of oxygen in water as it is transformed to oxidised forms of nitrogen."
@@ -74,7 +74,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "No USA President ever has been removed from office through impeachment. ",
             "In India, impeachment against the President can be initiated by either House of Parliament. "
@@ -91,7 +91,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "Oman shares its land borders with UAE, Yemen and Saudi Arabia only.",
             "Al Najah is the Army Exercise between India and Oman."
@@ -108,7 +108,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Thiruvalluvar: ",
-        "foot-stmt": "Which of the statements given above is/are not correct? ",
+        "foot_stmt": "Which of the statements given above is/are not correct? ",
         "stmts": [
             "The classic Tamil language text Thirukkural was written by Thiruvalluvar.",
             "Valluvar kottam temple in Chennai is built in the memory of Thiruvalluvar."
@@ -125,7 +125,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Nagi-Nakti Bird Sanctuaries is located in BIhar.",
             "The Kalrav bird festival was recently held at the Nagi-Nakti bird sanctuaries."
@@ -142,7 +142,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Pradhan Mantri JI-VAN Yojana aims to boost research and development in the 2G Ethanol.",
             "In India, the current permissible level of blending is 20% of ethanol with gasoline."
@@ -159,7 +159,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following reports are published by the United Nations Environment Programme (UNEP)? ",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "Emission Gap Report",
             "Global Environment Outlook ",
@@ -177,7 +177,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to Mitochondria, which of the following statements are correct? ",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "Mitochondrial DNA is the small circular chromosome. ",
             "The mitochondria produce cellular energy in the form of adenosine triphosphate (ATP).",
@@ -195,7 +195,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Open Skies Treaty between two countries provides rights for airlines to offer international passenger and cargo services.",
             "Open Sky agreement allows a member State to undertake surveillance on any part of the host nation. "
@@ -224,7 +224,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements regarding Semeru volcano:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is a part of the Island arcs formed by the subduction of the Indo-Australian plate below Sunda Plate.",
             "It is prone to seismic upheaval due to its location on the Pacific’s Ring of Fire."
@@ -253,7 +253,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Rare Diseases:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "More than half of the rare diseases are genetic in origin and hence mainly impact children.",
             "Lysosomal storage disorder is a metabolic disease caused by excessive release of enzymes.",
@@ -271,7 +271,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about the Indian Star Tortoise: ",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "It is found in Central and Southern part of India only. ",
             "It is protected under Schedule 1 of the Wild Life Protection Act 1972",
@@ -289,7 +289,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the Bad Bank, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "These are the banking institutions which are facing balance sheet problems.",
             "The banks are restricted from getting involved in lending and taking deposits."
@@ -306,7 +306,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the Central Vigilance Commission (CVC), consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The CVC was set up on the recommendations of the K. Santhanam Committee.",
             "The CVC is an investigating agency under the Union Home Ministry."
@@ -323,7 +323,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to Indian Railway Finance Corporation (IRFC), consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is the dedicated market borrowing arm of the Indian Railways.",
             "It could lease the railway infrastructure assets."
@@ -340,7 +340,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Bandipur Tiger Reserve:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is located at the tri-junction area of states of Karnataka, Tamil Nadu and Andhra Pradesh.",
             "It is located between river Kabini in the north and Tungabhadra in the south.",
@@ -358,7 +358,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements with respect to Shadow entrepreneurships: ",
-        "foot-stmt": "Which of the statements above is/are correct?",
+        "foot_stmt": "Which of the statements above is/are correct?",
         "stmts": [
             "These are the businesses that sell legitimate goods and services but are not registered with the government. ",
             "The unlicensed taxicab services and e-pharmacies are examples of shadow entrepreneurship. ",
@@ -376,7 +376,7 @@ var DATA = {
     {
         "type": "msq",
         "head-stmt": "Consider the following pairs:",
-        "foot-stmt": "Which of the pairs given above is/are correctly matched?",
+        "foot_stmt": "Which of the pairs given above is/are correctly matched?",
         "stmts": [
             	"Ex Desert Knight-21	 India and France",
                 "Varuna	    India and Russia",
@@ -394,7 +394,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Carbon sequestration is the temporary storage of carbon in plants, soils, geologic formations, and the ocean.",
             "The dumping of iron in the ocean helps in CO<sub>2</sub> absorption."
@@ -411,7 +411,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following statements are correct about Guru Gobind Singh? ",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "He founded the principles of Khalsa.",
             "He fought against the Mughals in the battle of Muktsar."
@@ -428,7 +428,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following is/are not a ballistic missiles of India?",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "Shaurya",
             "BrahMos",
@@ -447,7 +447,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements regarding the E-Waste Management Rules, 2016:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Producers have been made responsible for the collection of E-waste and for its exchange.",
             "Deposit Refund Scheme has been introduced to promote recycling of electrical and electronic equipment."
@@ -464,7 +464,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the Government borrowings, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Seventh schedule of the Indian Constitution gives powers of raising foreign loans to both Centre and State.",
             "State Governments need to obtain the consent of the Centre for raising fresh loans."
@@ -481,7 +481,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Article 110 of the Constitution deals with Money Bills.",
             "Money bills can be introduced in both Lok Sabha and Rajya Sabha.",
@@ -499,7 +499,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following is correct about India Innovation Index Report? ",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "India Innovation Index Report is released by NITI Aayog.",
             "This index has been developed on the lines of the Global Innovation Index.",
@@ -517,7 +517,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements: ",
-        "foot-stmt": "Which of the above statements is/are correct?",
+        "foot_stmt": "Which of the above statements is/are correct?",
         "stmts": [
             "The President cannot exercise his power of pardon independent of the government.",
             "The scope of the pardoning power of the President is wider than that of the Governor."
@@ -534,7 +534,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to AstroSat, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is the first dedicated Indian astronomy mission.",
             "It enables the simultaneous multi-wavelength observations of various astronomical objects with a single satellite."
@@ -551,7 +551,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Angiogenesis is the process through which new blood vessels are formed from pre-existing vessels.",
             "Angiogenesis inhibitors are unique cancer-fighting agents."
@@ -568,7 +568,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Chenab River is formed by the confluence of Chandra and Bhaga river.",
             "The Bhaga river originates from Surya taal lake situated west of the Bara-lacha la pass in Himachal Pradesh.",
@@ -586,7 +586,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The summoning of Parliament is specified in Article 85 of the Constitution.",
             "Three compulsory Parliament sessions in a year is mandated by the Constitution."
@@ -603,7 +603,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Smart Anti Airfield Weapon (SAAW):",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is indigenously developed by the Defence Research and Development Organisation (DRDO).",
             "The weapon is designed to strike ground targets."
@@ -620,7 +620,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "Exercise Kavach is a bi-lateral military exercise of Indian Airforce and Royal Australian Air Force.",
             "The Andaman and Nicobar command is the first integrated theatre command in India.",
@@ -638,7 +638,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statement regarding Sree Narayana Guru:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "He was a proponent and re-evaluators of Advaita Vedanta.",
             "He provided the impetus for Vaikom agitation which was aimed at temple entry."
@@ -655,7 +655,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the National Centre for Polar and Ocean Research (NCPOR), consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It was established as an autonomous Research and Development Institution of the Ministry of Earth Sciences.",
             "It is designated as a nodal body to coordinate among various scientific bodies to promote domestic scientific research capacities in the Arctic."
@@ -672,7 +672,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to Subhas Chandra Bose, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "He opposed Motilal Nehru Report on the issue of dominion status for India. ",
             "He opposed the suspension of the Civil Disobedience Movement.",
@@ -690,7 +690,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "Risa is a handwoven cloth worn by tribals communities of Tripura",
             "Garia Puja is celebrated as a harvest festival by the ethnic tribes in Tripura. "
@@ -719,7 +719,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "In a Limited Liability Partnership (LLP) each partner is responsible or liable for another partner's misconduct or negligence.",
             "In a partnership firm every partner is not liable jointly for all acts of the firm done while he is a partner."
@@ -736,7 +736,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the Green Bonds, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is a debt instrument with which capital is being raised to fund green projects.",
             "The green bonds have been crucial in increasing financing to sunrise sectors."
@@ -753,7 +753,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "ShramShakti portal aims to collect data related to tribal migrant workers and link them with the existing welfare schemes. ",
             "Pradhan Manti Van Dhan Yojana aims to strengthen the Self help groups into Tribal Producer Companies. "
@@ -770,7 +770,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following reports are released by the United Nations Conference on Trade and Development (UNCTAD):",
-        "foot-stmt": "Select the correct answer using the code given below: ",
+        "foot_stmt": "Select the correct answer using the code given below: ",
         "stmts": [
             "Investment Trends Monitor Report",
             "Global Financial Stability Report",
@@ -789,7 +789,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Green Tax:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Ministry of Road Transport and Highways will levy a green tax on transport vehicles older than eight years.",
             "CNG-vehicles, tractors and harvesters will be charged comparatively lower green tax. "
@@ -806,7 +806,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Rail Land Development Authority (RLDA) is a statutory body under the Ministry of Railways.",
             "The RLDA has approved the redevelopment of New Delhi Railway Station under Transit-Oriented Development (TOD) concept."
@@ -823,7 +823,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The World Economic Outlook Report is released by the International Monetary Fund (IMF).",
             "The IMF was set up after the Second World War to assist in the reconstruction of war-ravaged countries."
@@ -840,7 +840,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to Padma Awards, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Padma Bhushan is highest in the hierarchy of Padma Awards.",
             "The Padma Awards Committee is constituted by the Prime Minister every year."
@@ -857,7 +857,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements: ",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "Barasingha is found exclusively in Kanha Tiger Reserve.",
             "Barasingha is the state animal of Madhya Pradesh.",
@@ -875,7 +875,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to cyber crimes, consider the following statements: ",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "Spoofing attacks are designed to gain access to or damage one’s computer and gather personal information. ",
             "The International Telecommunication Union is a UN specialised agency that deals with cyber security issues. ",
@@ -893,7 +893,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following statements about Govind Ballabh Pant are correct? ",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "He participated in the Non-Cooperation movement as well as Salt march during the Civil Disobedience Movement.",
             "He was against a separate electorate for minorities."
@@ -910,7 +910,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the International Energy Agency (IEA), consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The IEA is an autonomous organisation established in the framework of the Organisation for Economic Co-operation and Development (OECD).",
             "The Clean Energy Transitions Programme (CETP) was launched by the IEA in 2017."
@@ -927,7 +927,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the appointment of judges in India, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The judges of Supreme Court and High court are appointed on the recommendation of the National Judicial Appointments Commission.",
             "The Chief Justice of the High Court is appointed by the president in consultation with the Chief Justice of India and the Governor of the State.",
@@ -945,7 +945,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about India Justice Report 2020: ",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It ranks the states on the basis of Judiciary, Police, Prisons and Legal Aid. ",
             "Tamil Nadu has the highest percentage of women police officers.",
@@ -963,7 +963,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to Geographical Indication (GI) tag, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "GI is governed by the WTO’s agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS).",
             "The registration of a geographical indication in India is valid for a period of 10 years only."
@@ -980,7 +980,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements: ",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "Kala Utsav is an initiative of the Ministry of Culture. ",
             "Kala Utsav aims at showcasing the talent of school students at national, state and district level.",
@@ -998,7 +998,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With which of the following organisations/ movements was Lala Lajpat Rai associated?",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "Servants of People Society",
             "Hindu Relief Movement",
@@ -1017,7 +1017,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "With reference to the Sovereign Gold Bond Scheme, consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The bonds are issued by the Reserve Bank of India on behalf of the Central Government.",
             "The gold bonds are sold only to resident Indian entities."
@@ -1034,7 +1034,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Future Investment Initiative Forum:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "It is described as Davos in the Desert.",
             "It is organised by the World Economic Forum."
@@ -1051,7 +1051,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements about Covid-19 Performance Index:",
-        "foot-stmt": "Which of the statements given above is/are not correct?",
+        "foot_stmt": "Which of the statements given above is/are not correct?",
         "stmts": [
             "It is released by the World Health Organization.",
             "New Zealand is the best performing nation."
@@ -1080,7 +1080,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Which of the following countries/organization will participate in the West Asia Peace Conference?",
-        "foot-stmt": "Select the correct answer using the code given below:",
+        "foot_stmt": "Select the correct answer using the code given below:",
         "stmts": [
             "Palestine",
             "Egypt",
@@ -1099,7 +1099,7 @@ var DATA = {
     {
         "type": "msq",
         "head_stmt": "Consider the following statements:",
-        "foot-stmt": "Which of the statements given above is/are correct?",
+        "foot_stmt": "Which of the statements given above is/are correct?",
         "stmts": [
             "The Nilgiri Elephant Corridor is situated on a plateau connecting the Western and the Eastern Ghats.",
             "Some of the tributaries of the river Cauvery have their catchment areas within the Nilgiri Biosphere Reserve."
