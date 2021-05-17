@@ -36,6 +36,14 @@ var Test_data =
             {
                 "title" : "Polity Difficult Questions",
                 "adress": "./data/polity_difficult_questions.js"
+            },
+            {
+                "title" : "Current Affairs Jan 1",
+                "adress": "./data/jan_current_affairs_1.js"
+            },
+			{
+                "title" : "Current Affairs Jan 2",
+                "adress": "./data/jan_current_affairs_2.js"
             }
 		]
 }

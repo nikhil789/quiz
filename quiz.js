@@ -119,13 +119,15 @@ function submit(){
 	
 	//fetch correct answers
 	var ques_arr = DATA["questions"];
-	
 	var CORRECT_ANS = {};
-	
+	var explanations = {}
 	for(var i = 0; i < ques_arr.length; i++){
 	
 		CORRECT_ANS[i+1] = ques_arr[i]["correct"];
-	
+        if("explanation" in ques_arr[i])
+        {
+            explanations[`${i + 1}`] = ques_arr[i]["explanation"];
+        }
 	}
 	
 	//match the answers
@@ -167,7 +169,7 @@ function submit(){
 		
 		var q_container = document.getElementById(q_no);
 			var msg_container = document.createElement("div");
-			
+            var exp_container = document.createElement("div");
 			if(USER_INPUT[q_no] == CORRECT_ANS[q_no]){
 			
 				var msg = "Solved Correctly";
@@ -189,10 +191,22 @@ function submit(){
 				wrong_ans_count += 1;
 				
 			}
-			
+			if(`${q_no}` in explanations)
+            {
+                var explain_content = document.createElement("p");
+                explain_content.innerHTML = explanations[`${q_no}`];
+                var explain_text = document.createElement("p");
+                explain_text.innerHTML = "Explanation : "
+                exp_container.append(explain_text);
+                exp_container.append(explain_content);
+            }
 			msg_container.innerHTML = msg;
 			q_container.append(msg_container);
-			
+            if(`${q_no}` in explanations)
+            {
+                if(explain_content.innerHTML != "")
+                    q_container.append(exp_container);
+            }
 	}
 	
 	var correct_disp = document.getElementById("correct_count");
