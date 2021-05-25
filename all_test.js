@@ -60,6 +60,10 @@ var Test_data =
 			{
                 "title" : "Current Affairs March 2",
                 "adress": "./data/march_current_affairs_2.js"
+            },
+			{
+                "title" : "Current Affairs April 1",
+                "adress": "./data/april_current_affairs_1.js"
             }
 		]
 }
