@@ -64,6 +64,14 @@ var Test_data =
 			{
                 "title" : "Current Affairs April 1",
                 "adress": "./data/april_current_affairs_1.js"
+            },
+			{
+                "title" : "Current Affairs Dec 1",
+                "adress": "./data/dec_cur_affairs_1.js"
+            },
+			{
+                "title" : "Current Affairs Dec 2",
+                "adress": "./data/dec_cur_affairs_2.js"
             }
 		]
 }
