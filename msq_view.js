@@ -12,15 +12,19 @@ function prepare_msq_view(q_number, q_data){
 	
 	var options_table = create_options_table(q_number, q_data["options"]);
 	
+    var button_div = document.createElement("div");
+    button_div.className = "button_div";
 	var clear_button = document.createElement("button");
 	clear_button.id = q_number + "_" + "clear";
 	clear_button.className = "clear_response";
 	clear_button.innerHTML = "Clear Response";
+
+    button_div.append(clear_button);
 	
 	q_container.append(number_label);
 	q_container.append(stmts_template);
 	q_container.append(options_table);
-	q_container.append(clear_button);
+	q_container.append(button_div);
 	
 	return q_container;
 }
