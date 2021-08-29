@@ -12,7 +12,7 @@ body{
 	position: sticky;
 	top: 0;
 	background: linear-gradient(
-      to bottom,
+      to right,
       rgb(0, 171, 255)0%,
       rgb(0,147,255)100%
   );

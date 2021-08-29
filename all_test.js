@@ -3,7 +3,10 @@ var Test_data =
 
 		"Tests" : 
 		[ 
-			
+			{
+                "title" : "June 2021 MCQs",
+                "adress": "./data/june_2021_mcqs.js"
+            },	
 			{
 
 				"title" : "Fundamental duties",
