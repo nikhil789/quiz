@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#quest{
+			height: 75px;
+			width: 600px;
+		}
+		.options{
+			width: 400px;
+			height: 30px;
+		}
+		#prev_container{
+			display: flex;
+			justify-content: space-around;
+		}
+		#preview{
+			height: 300px;
+			width: 300px;
+			background-color: rgb(240,240,240);
+			border: 2px solid black;
+			margin: 50px;
+		}
+		#json{
+			height: 300px;
+			width: 300px;
+			background-color: rgb(240,240,240);
+			border: 2px solid black;
+			margin: 50px;
+		}
+		#but{
+			display: inline-block;
+			padding: 4px;
+			margin: 5px;
+			border: 1px solid black;
+			background-color: rgb(200, 200, 200);
+			border-radius: 2px;
+		}
+	</style>
+</head>
+<body>
+	<!-- SETTING QUESTION AREA.....................................................-->
+	<form id="form1">
+		<textarea id="quest" required></textarea>
+		<br>
+		<br>
+		<label> A)</label>
+		<input type="text" class="options A" required>
+		<input type="radio" name="sol" class="A radio">
+		<br>
+		<br>
+		<label> B)</label>
+		<input type="text" class="options B" required>
+		<input type="radio" name="sol" class="B radio">
+		<br>
+		<br>
+		<label> C)</label>
+		<input type="text" class="options C" required>
+		<input type="radio" name="sol" class="C radio">
+		<br>
+		<br>
+		<label> D)</label>
+		<input type="text" class="options D" required>
+		<input type="radio" name="sol" class="D radio">
+		<br><br>
+		<label for="sol">Answer</label>
+		<input id="sol" type="text" class="options" disabled>
+		<br>
+		<div id="but" onclick="clicked()">SET QUESTION</div>
+	</form>
+	<!-- PREVIEW ................................................................................-->
+	<div id="prev_container">
+		<div id="preview"></div>
+		<pre id="json"></pre>
+	</div>
+	<!-- JSON FORMAT.............................................................................-->
+	<!--download whole question set..............................................................-->
+	<button id="but2" onclick="download()">Download</button>
+</body>
+<script>
+	var QUESTIONS = {"quest":[]};
+	var radio = document.getElementsByClassName("radio");
+	for(let i of radio)
+	{
+		i.addEventListener("click", function(){
+			var cls = i.getAttribute("class").split(' ');
+			var ans = document.getElementsByClassName("options "+ cls[0]);
+			console.log("sdfkndfkns",ans[0]);
+			console.log(ans[0].value);
+			console.log(document.getElementById('sol'));
+			document.getElementById('sol').value = ans[0].value;
+		});
+	}
+	function clicked()
+	{
+		console.log('came in clicked');
+		generate_pre();
+		generate_JSON();
+	}
+	function generate_pre()
+	{
+		console.log('came in pre');
+		var pre = document.getElementById('preview');
+		var quest_name = document.createElement('h3');
+		quest_name.innerHTML = document.getElementById('quest').value;
+		var option_a = document.createElement('p');
+		option_a.innerHTML = "A) " + document.getElementsByClassName('options A')[0].value;
+		var option_b = document.createElement('p');
+		option_b.innerHTML = "B) " +document.getElementsByClassName('options B')[0].value;
+		var option_c = document.createElement('p');
+		option_c.innerHTML = "C) " + document.getElementsByClassName('options C')[0].value;
+		var option_d = document.createElement('p');
+		option_d.innerHTML = "D) " + document.getElementsByClassName('options D')[0].value;
+		var correct_opt = document.createElement('h4');
+		correct_opt.innerHTML = document.getElementById('sol').value;
+		QUESTION = {
+			"type" : "dtq",
+			"stmt" : quest_name.innerHTML,
+			"options": [
+						 document.getElementsByClassName('options A')[0].value,
+						 document.getElementsByClassName('options B')[0].value,
+						 document.getElementsByClassName('options C')[0].value,
+						 document.getElementsByClassName('options D')[0].value
+						],
+			"correct": correct_opt.innerHTML
+
+		}
+		QUESTIONS['quest'].push(QUESTION);
+		console.log("QUESTIONS set is ", QUESTIONS);
+		pre.innerHTML = '';
+		pre.append(quest_name);
+		pre.append(option_a);
+		pre.append(option_b);
+		pre.append(option_c);
+		pre.append(option_d);
+		pre.append(correct_opt);
+	}
+	function generate_JSON()
+	{
+		console.log('came in json');
+		var js = document.getElementById('json');
+		js.innerHTML = JSON.stringify(QUESTION, null, 4);
+	}
+
+	function download(){
+		var text = "";
+		console.log("QUESTIONS['quest'] is ", QUESTIONS["quest"]);
+		for(let i of QUESTIONS["quest"])
+		{
+			console.log("******* i is", i)
+			let j = JSON.stringify(i, null, 4);
+			text += j;
+			text +=  ',' + "\n" + "\n";
+		}
+		text = text.substr(0, text.length - 3);
+		console.log("text is ", text);
+		var download_link = document.createElement('a');
+		download_link.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+
+		var filename = "questions.js";
+		download_link.setAttribute('download', filename);
+
+		download_link.style.display = 'none';
+		document.body.appendChild(download_link);
+
+		download_link.click();
+
+		document.body.removeChild(download_link);
+	}
+</script>
+</html>
