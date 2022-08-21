@@ -22,6 +22,13 @@ var Test_data =
 
 				"title" : "67th BPSC",
 				"adress": "./data/67thbpsc(cancel).js"	
+			},
+			
+			
+			{
+
+				"title" : "Polity Difficult Questions",
+				"adress": "./data/polity_difficult_questions.js"	
 			}
 			
 			
