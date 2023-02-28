@@ -169,7 +169,7 @@ var DATA = {
                 "1 only",
                 "1 and 3 only"
             ],
-            "correct": "1 and 3 only",
+            "correct": "1 and 2 only",
             "explanation": "At Sringaverapura near Allahabad,there exists an extraordinary example of hydraulic engineering dating back to the end of the 1st century BC. It comprises 3 percolation-cum-storage tanks, fed by an 11 m wide and 5 m deep canal that used to skim the floodwaters off the monsoon-swollen Ganga"
         },
         {
