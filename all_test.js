@@ -34,6 +34,11 @@ var Test_data =
 
 				"title" : "Miscellaneous Test 28 Feb",
 				"adress": "./data/miscellaneous_test_28_feb.js"	
+			},
+			
+			{
+				"title" : "CSE 2021 Paper (Set 1)",
+				"adress": "./data/cse_2021_paper(set1).js"	
 			}
 			
 			
