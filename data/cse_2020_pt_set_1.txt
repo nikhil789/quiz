@@ -1,0 +1,153 @@
+var DATA = {
+    "title": "CSE 2020 PT Set 1",
+    "duration": "",
+    "questions": [
+        {
+            "type": "msq",
+            "head_stmt": "Consider the following statements :",
+            "stmts": [
+                "Aadhaar metadata cannot be stored for\nmore than three months.",
+                "State cannot enter into any contract\nwith private corporations for sharing of\nAadhaar data.",
+                "Aadhaar is mandatory for obtaining\ninsurance products.",
+                "\nAadhaar is mandatory for getting benefits funded out of the Consolidated Fund of India."
+            ],
+            "foot_stmt": "Which of the statements given above is/are correct?",
+            "options": [
+                "1 and 4 only",
+                "2 and 4 only",
+                "3 only",
+                "1, 2 and 3 only"
+            ],
+            "correct": "2 and 4 only",
+            "explanation": "Supreme Court had ruled that Aadhaar metadata can not be stored for more than six months.So,1 is not correct + Supreme court in the Aadhaar verdict had defined the\nwelfare schemes as those funded from the consolidated fund of India. And it upheld the validity of Section 7 of the Aadhaar Act which states that Central or State Governments can make possession of an Aadhaar number or Aadhaar authentication mandatory for receipt of subsidies, benefits or services funded out of the Consolidated Fund of India. Therefore, statement 4 is correct. + 2018 judgement also held making that Aadhaar mandatory for other services apart from welfare schemes as unconstitutional. This includes availing financial services, including insurance or even to prevent money laundering in such insurance or even to prevent money laundering in such services.Subsequently, IRDAl issued an advisory in January 2019 that clarified that aadhaar is not mandatory for obtaining insurance. statement 3 is not correct. + section 57 which allowed providing private corporations to verify Aadhaar data which was held unconstitutional. Therefore, statement 2 is correct."
+        },
+        {
+            "type": "dtq",
+            "stmt": "Rajya Sabha has equal powers\nwith Lok Sabha in",
+            "options": [
+                "the matter of creating new All India Services",
+                "amending the Constitution",
+                "the removal of the government",
+                "making cut motions"
+            ],
+            "correct": "amending the Constitution",
+            "explanation": ""
+        },
+        {
+            "type": "msq",
+            "head_stmt": "With reference to the funds under Members of Parliament Local Area Development Scheme (MPLADS), which of the following statements are correct?",
+            "stmts": [
+                "MPLADS funds must be used to create durable assets like physical infrastructure for health, education, etc.",
+                "A specified portion of each MP's fund\nmust benefit SC/ST populations.",
+                "MPLADS funds are sanctioned on yearly basis and the unused funds cannot be carried forward to the next year.",
+                "The district authority must inspect at least 10% of all works under implementation every year."
+            ],
+            "foot_stmt": "Select the correct answer using the code given below: -",
+            "options": [
+                "1 and 2 only",
+                "3 and 4 only",
+                "1, 2 and 3 only",
+                "1, 2 and 4 only"
+            ],
+            "correct": "1, 2 and 4 only",
+            "explanation": "All works to meet locally felt infrastructure and development needs, with an emphasis on creation of durable assets in the constituency are permissible under MPLADS except those prohibited in Annexure-Il of the guidelines of MPLAD. Statement 1 is correct. + M.Ps are to recommend every year, works costing at least 15 per cent of the MPLADS entitlement for the year for areas inhabited by Scheduled Caste population and 7.5 per cent for areas inhabited by S.T. population. In other words, out of an amount of Rs.5 crores, a M.P. shall recommend for areas inhabited by S.C. population, Rs.75 lacs and Rs.37.5 lacs for areas inhabited by S.T. population. statement 2 is correct + MPLADS Funds are Non-lapsable. statement 3 is not correct. + The District Authority would be responsible for overall coordination and supervision of the is not correct. + The District Authority would be responsible for overall coordination and supervision of the works under the scheme at the district level and inspect at least 10% of the works under implementation every year. Statement 4 is correct."
+        },
+        {
+            "type": "dtq",
+            "stmt": "Which one of the following categories of Fundamental Rights incorporates against untouchability as a form of discrimination?",
+            "options": [
+                "Right against Exploitation",
+                "Right to Freedom",
+                "Right to Constitutional Remedies",
+                "Right to Equality"
+            ],
+            "correct": "Right to Equality",
+            "explanation": ""
+        },
+        {
+            "type": "dtq",
+            "stmt": "In India, separation of judiciary from the executive is enjoined by",
+            "options": [
+                "The Preamble of the Constitution",
+                "a Directive Principle of State Policy",
+                "the Seventh Schedule",
+                "the conventional practice"
+            ],
+            "correct": "a Directive Principle of State Policy",
+            "explanation": ""
+        },
+        {
+            "type": "dtq",
+            "stmt": "Along with the Budget, the Finance Minister also places other documents before the Parliament which include 'The Macro Economic Framework Statement'. The aforesaid document is presented because this is mandated by",
+            "options": [
+                "Long standing parliamentary convention",
+                "Article 112 and Article 110(1) of the Constitution of India",
+                "Article 113 of the Constitution of India",
+                "Provisions of the Fiscal Responsibility and Budget Management Act, 2003"
+            ],
+            "correct": "Provisions of the Fiscal Responsibility and Budget Management Act, 2003",
+            "explanation": "Fiscal Responsibility and Budget\nManagement (FRBM) became an Act\nin 2003. The Act also requires the\ngovernment to lay before the\nparliament three policy statements in\neach financial year namely a. Medium\nTerm Fiscal Policy Statement; b.\nFiscal Policy Strategy Statement and\nC. Macroeconomic Framework Policy\nStatement."
+        },
+        {
+            "type": "dtq",
+            "stmt": "A constitutional government by definition is a",
+            "options": [
+                "Government by legislature ",
+                "Popular government ",
+                "Multi-party government ",
+                "Limited government "
+            ],
+            "correct": "Limited government ",
+            "explanation": "Constitutional government is\ndefined by the existence of a\nconstitution-which may be a legal\ninstrument or merely a set of fixed\nnorms or principles generally\naccepted as the fundamental Law of\nthe polity-that effectively controls\nthe exercise of political\npower.Constitutional government in\nessence is about constitutionalism\nwhich is about limited government. In\nmany cases, constitutional\ngovernment is used interchangeably\nwith\n\"constitutionally limited\ngovernment\" or\n\"limited government\""
+        },
+        {
+            "type": "msq",
+            "head_stmt": "Other than the Fundamental Rights, which parts of the Constitution of India reflect principle and provisions of the Universal Declaration of Human Rights (1948)?",
+            "stmts": [
+                "Preamble",
+                "Directive Principles of State Policy",
+                "Fundamental Duties"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below: ",
+            "options": [
+                "1 and 2 only",
+                "2 only",
+                "1 and 3 only",
+                "1, 2 and 3"
+            ],
+            "correct": "1, 2 and 3",
+            "explanation": "The Preamble of the constitution mentions about liberty, equality, fraternity, justice - social, economic, political and many such things which overlap with the 1948 declaration as seen in Articles 1-2, 18-21, etc. Similarly, the 1948 declaration thus talks of not just political rights but also of social and economic rights especially under Articles 22-27. In case of Indian constitution, these socio-economic rights are provided in the Directive Principles of state policy. Lastly, the declaration talks of not just rights but also duties of individual towards the society as seen in the Articles 28-30. Therefore, all the three parts reflect the spirit of the declaration."
+        },
+        {
+            "type": "msq",
+            "head_stmt": "In India, Legal Services Authorities provide free legal services to which of the following type of citizens ?",
+            "stmts": [
+                "Person with an annual income of less than ₹1,00,000",
+                "Transgender with an annual income of less than ₹2,00,000",
+                "\nMember of Other Backward Classes (OBC) with an annual income of less than ₹3,00,000",
+                "All Senior Citizens"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below: ",
+            "options": [
+                "1 and 2 only",
+                "3 and 4 only",
+                "2 and 3 only",
+                "1 and 4 only"
+            ],
+            "correct": "1 and 2 only",
+            "explanation": "The persons eligible for getting free legal services include:\n1) Women and children 2) Members of SC/ST \n3) Industrial workmen 4) Victims of mass disaster, violence, flood, drought, earthquake industrial\ndisaster \n5) Disabled persons \n6)Persons in custody \n7) Persons whose annual income does not exceed 71 lakh \n8) Victims of trafficking in\nhuman beings or begar. \nTherefore, statement 1 is correct. +Senior\ncitizens' eligibility for free legal aid depends on the Rules framed by the respective State Governments in this regard. statement 4 is not correct. + There is free aid to members of SC and ST community but not for OBCs.\nHence statement 3 is not correct. + There is provision \nfor free legal aid to transgenders upto 2 lakhs in Delhi.\n(But it is yet to be implemented at an\nall India level)"
+        },
+        {
+            "type": "dtq",
+            "stmt": "A Parliamentary System of Government is one in which",
+            "options": [
+                "all political parties in the Parliament are represented in the Government",
+                "the Government is responsible to the Parliament and can be removed by it",
+                "the Government is elected by the people and can be removed by them",
+                "the Government is chosen by Parliament but cannot be removed by it before completion of a fixed term"
+            ],
+            "correct": "the Government is responsible to the Parliament and can be removed by it",
+            "explanation": "By definition, a parliamentary system of government is one in which the executive is responsible to the legislature. The government is not directly elected by the people but indirectly through their representative in Parliament. Therefore, the instrument to remove government through public vote is not available in parliamentary system; this is a feature found in direct democracies. Hence option (a), (c) are incorrect. Option (d) goes against the fundamental principle of parliamentary democracy which requires an executive responsible to legislature. Therefore the correct answer is (b)."
+        }
+    ]
+}
