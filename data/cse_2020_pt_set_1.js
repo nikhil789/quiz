@@ -171,7 +171,7 @@ var DATA = {
         },
         {
             "type": "msq",
-            "head_stmt": "With reference to Indian elephants, consider the following statements :",
+            "head_stmt": "Which of the following Protected Areas are located in Cauvery basin ?",
             "stmts": [
                 "Nagarhole National Park",
                 "Papikonda National Park",
