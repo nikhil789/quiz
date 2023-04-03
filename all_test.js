@@ -39,6 +39,12 @@ var Test_data =
 			{
 				"title" : "CSE 2021 Paper (Set 1)",
 				"adress": "./data/cse_2021_paper(set1).js"	
+			},
+			
+			{
+				"title" : "CSE 2020 PT Set 1",
+				"adress": "./data/cse_2020_pt_set_1.js"
+			
 			}
 			
 			
