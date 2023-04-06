@@ -1,0 +1,189 @@
+var DATA = {
+    "title": "CSE 2020 PT Set 2",
+    "duration": "",
+    "questions": [
+        {
+            "type": "msq",
+            "head_stmt": "If another global financial crisis happens in the near future, which of the following actions / policies are most likely to give some immunity to India ?",
+            "stmts": [
+                "Not depending on short-term foreign borrowings",
+                "Opening up to more foreign banks",
+                "Maintaining full capital account convertibility"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below",
+            "options": [
+                "1 only",
+                "1 and 2 only",
+                "3 only",
+                "1, 2 and 3"
+            ],
+            "correct": "1 only",
+            "explanation": "The Short-term debts have to be returned at a shorter interval. This renders an economy vulnerable if the economy is already facing economic crisis as it has an obligation to return the debt as well as interest payments. + Opening up to the foreign banks and depending upon them is not a good idea during crisis. Foreign banks reduced their lending during crisis. Many of them choose to retreat from cross-border banking in general + Capital account convertibility would mean that there is no restriction on conversion of the domestic currency into a foreign currency. Any deterioration in fiscal conditions, inflation management, balance of payments, or any other economic crisis may cause a cessation or reversal of capital flows."
+        },
+        {
+            "type": "dtq",
+            "stmt": "If you withdraw ₹1,00,000 in cash from your Demand Deposit Account at your bank, the immediate effect on aggregate money supply in the economy will be",
+            "options": [
+                "to reduce it by ₹1,00,000",
+                "to increase it by ₹1,00,000",
+                "to increase it by more than ₹1,00,000",
+                "to leave it unchanged"
+            ],
+            "correct": "to leave it unchanged",
+            "explanation": "Basic components of money supply are: Currency with public (C) Demand Deposits of public with Banks (also called as deposit money) (D). we can express money supply as: M= C+D. Now, taking out Rs 1 lakh from \"D\" would increase \"C\" with public. This simply means that \"the immediate\" effect would be \"a no change in the aggregate money supply\" in the economy."
+        },
+        {
+            "type": "dtq",
+            "stmt": "With reference to Foreign Direct Investment in India, which one of the following is considered its major characteristic?",
+            "options": [
+                "It is the investment through capital instruments essentially in a listed company.",
+                "It is a largely non-debt creating capital flow.",
+                "It is the investment which involves debt-servicing",
+                "It is the investment made by foreign institutional investors in the Government securities."
+            ],
+            "correct": "It is a largely non-debt creating capital flow.",
+            "explanation": "A debt flow is a type of foreign capital where there is obligation for the residents to repay it. A non-debt flow is the one where there is no direct repayment obligation for theresidents. For example, in the case of FDI, there is not debt payment obligation. On the other hand, in the case of External Commercial Borrowings that is a loan taken by residents from abroad, the loan is to be repaid and this is a debt flow. When the capital inflow is a debt flow like External Commercial Borrowings or NRI deposits, it means debt payment obligation for the country. FDI and Depository Receipts are non-debt flows."
+        },
+        {
+            "type": "dtq",
+            "stmt": "The term West Texas Intermediate' sometimes found in news, refers to a grade of",
+            "options": [
+                "Crude oil",
+                "Bullion",
+                "Rare earth elements",
+                "Uranium"
+            ],
+            "correct": "Crude oil",
+            "explanation": "West Texas Intermediate (WTI) crude oil is a specific grade of crude oil and one of the main three benchmarks in oil pricing, along with Brent and Dubai Crude."
+        },
+        {
+            "type": "msq",
+            "head_stmt": "In the context of the Indian economy, non-financial debt includes which of the following?",
+            "stmts": [
+                "Housing loans owed by households ",
+                "Amounts outstanding on credit cards",
+                "Treasury bills"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below",
+            "options": [
+                "1 only",
+                "1 and 2 only",
+                "3 only",
+                "1, 2 and 3"
+            ],
+            "correct": "1, 2 and 3",
+            "explanation": "Non-financial debt consists of credit instruments issued by governmental entities, households and businesses that are not included in the financial sector. It includes industrial or commercial loans, Treasury bills and credit card balances."
+        },
+        {
+            "type": "dtq",
+            "stmt": "In India, why are some nuclear reactors kept\nunder \"IAEA Safeguards\" while others are\nnot?\n(a)\n(b)",
+            "options": [
+                "Some use uranium and others use thorium",
+                "Some use imported uranium and others use domestic supplies",
+                "Some are operated by foreign enterprises and others are operated by domestic enterprises",
+                "Some are State-owned and others are privately-owned"
+            ],
+            "correct": "Some use imported uranium and others use domestic supplies",
+            "explanation": "There are at present 22 operational\nreactors, of which 14 are under the\nInternational Atomic Energy Agency (IAEA) safeguards as they use imported fuel. India currently imports uranium from Russia, Kazakhstan and Canada. Plans are also afoot to procure the fuel from Uzbekistan and Australia. The remaining \"military\" facilities remained off-limits to international inspectors."
+        },
+        {
+            "type": "dtq",
+            "stmt": "In India, why are some nuclear reactors kept\nunder \"IAEA Safeguards\" while others are\nnot?",
+            "options": [
+                "Some use uranium and others use thorium",
+                "Some use imported uranium and others use domestic supplies",
+                "Some are operated by foreign enterprises and others are operated by domestic enterprises",
+                "Some are State-owned and others are privately-owned"
+            ],
+            "correct": "Some use imported uranium and others use domestic supplies",
+            "explanation": "There are at present 22 operational\nreactors, of which 14 are under the\nInternational Atomic Energy Agency (IAEA) safeguards as they use imported fuel. India currently imports uranium from Russia, Kazakhstan and Canada. Plans are also afoot to procure the fuel from Uzbekistan and Australia. The remaining \"military\" facilities remained off-limits to international inspectors."
+        },
+        {
+            "type": "dtq",
+            "stmt": "In India, why are some nuclear reactors kept under \"IAEA Safeguards\" while others are\nnot?",
+            "options": [
+                "Some use uranium and others use thorium",
+                "Some use imported uranium and others use domestic supplies",
+                "Some are operated by foreign enterprises and others are operated by domestic enterprises",
+                "Some are State-owned and others are privately-owned"
+            ],
+            "correct": "Some use imported uranium and others use domestic supplies",
+            "explanation": "There are at present 22 operational\nreactors, of which 14 are under the\nInternational Atomic Energy Agency (IAEA) safeguards as they use imported fuel. India currently imports uranium from Russia, Kazakhstan and Canada. Plans are also afoot to procure the fuel from Uzbekistan and Australia. The remaining \"military\" facilities remained off-limits to international inspectors."
+        },
+        {
+            "type": "msq",
+            "head_stmt": "If the RBI decides to adopt an expansionist monetary policy, which of the following would it not do?",
+            "stmts": [
+                "Cut and optimize the Statutory Liquidity Ratio",
+                "Increase the Marginal Standing Facility Rate",
+                "Cut the Bank Rate and Repo Rate"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below",
+            "options": [
+                "1 and 2 only",
+                "2 only",
+                "1 and 3 only",
+                "1, 2 and 3"
+            ],
+            "correct": "2 only",
+            "explanation": "An increase in the SLR constricts the ability of the bank to inject money into the economy which affects growth. Thus, statement (1) is not correct + Higher the MSF rate, more expensive is borrowing for banks, as well as corporate borrowers and individuals. It is used by RBI to control the money supply in the country's financial system. Thus, statement (2) is correct. + When Bank Rate is increased by RBI, bank's borrowing costs increases which in return, reduces the supply of money in the market. Thus, statement (3) is\nnot correct."
+        },
+        {
+            "type": "msq",
+            "head_stmt": "Which of the following factors/policies were affecting the price of rice in India in the recent past ?",
+            "stmts": [
+                "Minimum Support Price",
+                "Government's trading",
+                "Government's stockpiling",
+                "Consumer subsidies"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below",
+            "options": [
+                "1, 2 and 4 only",
+                "1, 3 and 4only",
+                "2 and 3 only",
+                "1, 2, 3 and 4"
+            ],
+            "correct": "1, 2, 3 and 4",
+            "explanation": "By the following ways the price of rice in India gets affected: MSP increases the overall price of rice in market as the traders have to buy near MSP value + Government also carries out auction of the excess stockpile or intervenes When market prices soar to stabilize them. + Stockpiling is done to offload the stock when market prices soar providing cheap rice to consumers and stocking when prices fall ensuring remunerative prices to farmers. + Subsidies reduces the overall demand in the open market and prices are affected."
+        },
+        {
+            "type": "msq",
+            "head_stmt": "Under the Kisan Credit Card scheme, short-term credit support is given to farmers for which of the following purposes ?",
+            "stmts": [
+                "Working capital for maintenance of farm assets",
+                "Purchase of combine harvesters, tractors and mini trucks",
+                "Consumption requirements of farm households",
+                "Post-harvest expenses",
+                "Construction of family house and setting up of village cold storage facility"
+            ],
+            "foot_stmt": "Select the correct answer using the code given below",
+            "options": [
+                "1, 2 and 5 only",
+                "1, 3 and 4 only",
+                "2, 3, 4 and 5 only",
+                "1, 2, 3, 4 and 5"
+            ],
+            "correct": "1, 3 and 4 only",
+            "explanation": "Scheme aims at providing adequate and timely short term credit for : Post harvest expenses, Produce Marketing loan, Consumption requirements of farmer household, Working capital for maintenance of farm assets, Short term credit requirements of rearing of animals, birds, fish etc."
+        },
+        {
+            "type": "msq",
+            "head_stmt": "Consider the following statements :",
+            "stmts": [
+                "The weightage of food in Consumer Price Index (CPI) is higher than that in Wholesale Price Index (WPI).",
+                "The WPI does not capture changes in the prices of services, which CPI does.",
+                "Reserve Bank of India has now adopted WPI as its key measure of inflation and to decide on changing the key policy rates."
+            ],
+            "foot_stmt": "Select the correct answer using the code given below",
+            "options": [
+                "1 and 2 only",
+                "2 only",
+                "3 only",
+                "1, 2 and 3"
+            ],
+            "correct": "1 and 2 only",
+            "explanation": "Food weight in WPI is 18.8% which part of primary products, While CPI has 50% weight for food. So statement 1 is correct. + Consumer Price Index (CPI) Measures prices of both Goods and Services but WPI measures only Goods. + Reserve Bank of India (RBI) Governor in 2014 adopted the new Consumer Price Index (CPI) (combined) as the key measure of inflation. Based on the recommendations of Urjit Patel Committee. So statement 3 is not correct."
+        }
+    ]
+}
