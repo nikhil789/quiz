@@ -74,18 +74,6 @@ var DATA = {
             "correct": "1, 2 and 3",
             "explanation": "Non-financial debt consists of credit instruments issued by governmental entities, households and businesses that are not included in the financial sector. It includes industrial or commercial loans, Treasury bills and credit card balances."
         },
-        {
-            "type": "dtq",
-            "stmt": "In India, why are some nuclear reactors kept\nunder \"IAEA Safeguards\" while others are\nnot?\n(a)\n(b)",
-            "options": [
-                "Some use uranium and others use thorium",
-                "Some use imported uranium and others use domestic supplies",
-                "Some are operated by foreign enterprises and others are operated by domestic enterprises",
-                "Some are State-owned and others are privately-owned"
-            ],
-            "correct": "Some use imported uranium and others use domestic supplies",
-            "explanation": "There are at present 22 operational\nreactors, of which 14 are under the\nInternational Atomic Energy Agency (IAEA) safeguards as they use imported fuel. India currently imports uranium from Russia, Kazakhstan and Canada. Plans are also afoot to procure the fuel from Uzbekistan and Australia. The remaining \"military\" facilities remained off-limits to international inspectors."
-        },
         
         {
             "type": "dtq",
@@ -226,7 +214,7 @@ var DATA = {
         },
         {
             "type": "msq",
-            "head_stmt": "With reference to \"Blockchain Technology\", consider the following statements :",
+            "head_stmt": "Consider the following activities :",
             "stmts": [
                 "Spraying pesticides on a crop field",
                 "Inspecting the craters of active volcanoes ",
@@ -305,7 +293,7 @@ var DATA = {
         },
         {
             "type": "msq",
-            "head_stmt": "What is the importance of using Pneumococcal Conjugate Vaccines in India ?",
+            "head_stmt": "With the present state of development, Artifitial Intelligence can effectively do which of the following ?",
             "stmts": [
                 "Bring down electricity consumption in industrial units",
                 "Create meaningful short stories and songs",
@@ -505,7 +493,7 @@ var DATA = {
                 "2, 3 and 4 only"
             ],
             "correct": "2, 3 and 4 only",
-            "explanation": "Major minerals are those specified\nin the first schedule appended in the\nMMDR Act. There is no official\ndefinition for\n\"major minerals\" in the\nMMDR Act. Hence, whatever is not\ndeclared as a\n\"minor mineral\" may be\ntreated as the major mineral.Thus,\n\"Minor Minerals\"\n\" are building stones,\ngravel, ordinary clay, ordinary sand\nother than sand used for prescribed\npurposes etc. Therefore, Chromite,\nKyanite and Sillimanite are major\nminerals, whereas Bentonite is a\nminor mineral."
+            "explanation": "Major minerals are those specified\nin the first schedule appended in the\nMMDR Act. There is no official\ndefinition for\n\"major minerals\" in the\nMMDR Act. Hence, whatever is not\ndeclared as a\n\"minor mineral\" may be\ntreated as the major mineral.Thus,\n\"Minor Minerals\" are building stones, gravel, ordinary clay, ordinary sand\nother than sand used for prescribed\npurposes etc. Therefore, Chromite,\nKyanite and Sillimanite are major\nminerals, whereas Bentonite is a\nminor mineral."
         },
         {
             "type": "dtq",
