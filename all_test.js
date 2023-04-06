@@ -3,6 +3,23 @@ var Test_data =
 
 		"Tests" : 
 		[ 
+			
+			{
+				"title" : "CSE 2021 Paper (Set 1)",
+				"adress": "./data/cse_2021_paper(set1).js"	
+			},
+			
+			{
+				"title" : "CSE 2020 PT Set 1",
+				"adress": "./data/cse_2020_pt_set_1.js"
+			
+			},
+			
+			{
+				"title" : "CSE 2020 PT Set 2",
+				"adress": "./data/cse_2020_pt_set_2.js"
+				
+			},
             
 			{
 
@@ -34,23 +51,7 @@ var Test_data =
 
 				"title" : "Miscellaneous Test 28 Feb",
 				"adress": "./data/miscellaneous_test_28_feb.js"	
-			},
-			
-			{
-				"title" : "CSE 2021 Paper (Set 1)",
-				"adress": "./data/cse_2021_paper(set1).js"	
-			},
-			
-			{
-				"title" : "CSE 2020 PT Set 1",
-				"adress": "./data/cse_2020_pt_set_1.js"
-			
 			}
-			
-			
-			
-			
-			
 			
 		]
 }
