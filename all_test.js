@@ -3,6 +3,10 @@ var Test_data =
 
 		"Tests" : 
 		[ 
+			{
+				"title" : "राज्य और राजधानी",
+				"adress": "./data/राज्य_और_राजधानी.js"	
+			},
 			
 			{
 				"title" : "CSE 2021 Paper (Set 1)",
